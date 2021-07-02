@@ -1,6 +1,11 @@
-# python-helloworld
+# python-webapp
 
 This is a basic Python Flask application.
 
-# This is a test 1
-# python-webapp
+TO RUN: 
+  python3 app.py
+
+URL:
+  localhost:8080/
+
+
