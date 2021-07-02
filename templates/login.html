@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Flask Intro - login page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='login.css') }}">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container login-container">
+    <div class="login-form-2">
+        <h3>Welcome</h3>
+        <form action="" method="post">
+            <div class="form-group">
+                <input required type="text" class="form-control" placeholder="Name" name="name"
+                       value="{{request.form.name}}"/>
+            </div>
+            <div class="form-group">
+                <!--
+                # Google Search: maximum age of human #
+                Now researchers in Singapore, Russia, and the US have taken a different approach to estimate the maximum human lifespan.
+                Using a computer model, they estimate that the limit of human lifespan is about 150 years-->
+                <input required type="number" name="age" min="0" max="150" class="form-control" placeholder="Age"
+                       value="{{request.form.age}}"/>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btnSubmit" value="Login"/>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>
+
+
