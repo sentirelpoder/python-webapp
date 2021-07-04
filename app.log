@@ -4216,3 +4216,22 @@ INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 18:45:10] "POST /logout HTTP/1.1" 302 -
 INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 18:45:10] "GET /login HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 18:45:19] "POST /login HTTP/1.1" 401 -
 INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 18:45:41] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:app:Main request successfull
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:07:31] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:07:31] "GET /welcome HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:07:31] "GET /login?next=%2Fwelcome HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+INFO:app:Main request successfull
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:13:47] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:13:47] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:15:09] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:15:09] "GET /welcome HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:15:47] "POST /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:15:47] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:16:18] "POST /login HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:16:44] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:16:50] "POST /login HTTP/1.1" 401 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:18:01] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:18:08] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Jul/2021 19:18:08] "GET /welcome HTTP/1.1" 200 -

@@ -1,5 +1,5 @@
 applications:
-- name: python-helloworld 
+- name: python-webapp
   memory: 64M
   disk_quota: 256M
   buildpacks: 
