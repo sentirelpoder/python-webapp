@@ -1,0 +1,13 @@
+namespace:
+  name: prod
+  
+replicaCount: 2
+ 
+image:
+  tag: 1.17.0
+  
+resources:
+    CPU: 70m
+    
+configMapData:
+    value: 1.17.0
