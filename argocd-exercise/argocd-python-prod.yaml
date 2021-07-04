@@ -13,7 +13,7 @@ spec:
     helm:
         valueFiles:
         - values-prod.yaml
-    path: helm
+    path: argocd-exercise/helm
     repoURL: https://github.com/sentirelpoder/python-webapp
     targetRevision: HEAD
   syncPolicy: {}
