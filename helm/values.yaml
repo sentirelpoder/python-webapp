@@ -2,7 +2,7 @@ namespace:
   name: test
  
 image:
-  repository: sentirepoder/python-webapp
+  repository: sentirelpoder/python-webapp
   tag: v1.0.0
 
 replicaCount: 3
