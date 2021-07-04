@@ -14,7 +14,7 @@ resources:
 
 service:
   port: 8111
-  type: ClusterIP
+  type: TCP
     
 configMapData:
   key: version
